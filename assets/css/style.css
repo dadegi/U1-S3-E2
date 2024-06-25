@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+body div,
+footer {
+	padding: 1rem;
+}
+
+footer {
+	padding: 1rem;
+	background-color: black;
+	color: white;
+}
+
+.myHeading {
+	color: #ff00d6;
+}
+
+.backGreen {
+    background-color: green;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 2px solid black;
+}
+
+td {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
